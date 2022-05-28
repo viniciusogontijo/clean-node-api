@@ -1,6 +1,3 @@
 {
-  "*.ts": [
-    "eslit 'src/**' --fix",
-    "git add"
-  ]
+  "*.ts": ["eslit 'src/**' --fix", "npm run test:staged", "git add"]
 }
